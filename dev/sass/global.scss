@@ -1,0 +1,53 @@
+::selection {
+    background-color: rgb(81, 243, 216);
+}
+
+body {
+
+    .container-fluid {
+        max-width: 1230px;
+        width: 100%;
+    }
+
+    // в хедере надпись
+    .first-screen-title {
+        color: #FFF;
+        font-family: Playfair Display SC;
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+
+    // под надписью в хедере
+    .first-screen-description {
+        color: #FFF;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px; 
+    }
+
+
+    .topic {
+        color: #808080;
+        font-family: Playfair Display SC;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .description {
+        color: #000;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+    }
+}

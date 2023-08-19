@@ -1,0 +1,119 @@
+.page-markap {
+    background-color: rgb(87, 87, 6);
+  
+  
+    .row .block-1,
+    .row .block-2,
+    .row .block-3,
+    .row .block-4 {
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+    }
+    
+    .row .block-1 .h1,
+    .row .block-2 .h1,
+    .row .block-3 .h1,
+    .row .block-4 .h1 {
+        margin-left: 100px;
+    }
+    
+    .block-1 h1,
+    .block-2 h1,
+    .block-3 h1,
+    .block-4 h1 {
+        color: $bg-color-words;
+        font-size: 14px;
+    }
+    
+    .block-3 .zagolovok {
+        font-size: 36px;
+    }
+    
+    .block-3 h2, h3, h4, h5, h6 {
+        color: $bg-color-words;
+    }
+    
+    .col-md-4 p,
+    li {
+        /* padding: 20px; */
+        color: $bg-color-words;
+    }
+    
+    .row .block-1 ol,
+    .row .block-2 ul {
+        margin-left: 20px;
+    }
+    
+    .col-md-4 a {
+        color: $bg-color-btn;
+    }
+    
+    .block-1 .sqr-1,
+    .block-1 .sqr-2,
+    .block-1 .sqr-3,
+    .block-1 .sqr-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 60px;
+        background-color: $bg-color-btn;
+        margin-bottom: 20px;
+    }
+    
+    .block-1 .sqr-2 {
+        background-color: $bg-color-carts;
+    }
+    
+    .block-1 .sqr-3 {
+        background-color: $bg-color-green;
+    }
+    
+    .block-1 .sqr-4 {
+        background-color: $bg-color-page;
+    }
+    
+    .col-md-4 .title-1 {
+        font-size: 36px;
+        line-height: 1.5;
+        font-weight: 600;
+        color: $bg-color-words;
+    }
+    
+    .col-md-4 .title-2 {
+        font-size: 32px;
+        line-height: 1.5;
+        font-weight: 600;
+        color: $bg-color-words;
+    }
+    
+    .col-md-4 .title-3 {
+        font-size: 28px;
+        line-height: 1.5;
+        font-weight: 600;
+        color: $bg-color-words;
+    }
+    
+    .col-md-4 .title-4 {
+        font-size: 24px;
+        line-height: 1.5;
+        font-weight: 600;
+        color: $bg-color-words;
+    }
+    
+    .col-md-4 .title-5 {
+        font-size: 20px;
+        line-height: 1.5;
+        font-weight: 600;
+        color: $bg-color-words;
+    }
+    
+    .col-md-4 .title-6 {
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 600;
+        color: $bg-color-words;
+    }
+}
+ 
