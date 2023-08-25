@@ -1,5 +1,5 @@
 .page-markap {
-    background-color: rgb(87, 87, 6);
+    background-color: rgb(255, 255, 255);
   
   
     .row .block-1,
@@ -22,7 +22,7 @@
     .block-2 h1,
     .block-3 h1,
     .block-4 h1 {
-        color: $bg-color-words;
+        color: $color-black;
         font-size: 14px;
     }
     
@@ -31,13 +31,13 @@
     }
     
     .block-3 h2, h3, h4, h5, h6 {
-        color: $bg-color-words;
+        color: $color-black;
     }
     
     .col-md-4 p,
     li {
         /* padding: 20px; */
-        color: $bg-color-words;
+        color: $color-black;
     }
     
     .row .block-1 ol,
@@ -46,7 +46,7 @@
     }
     
     .col-md-4 a {
-        color: $bg-color-btn;
+        color: $color-dark-grey;
     }
     
     .block-1 .sqr-1,
@@ -58,62 +58,105 @@
         align-items: center;
         width: 200px;
         height: 60px;
-        background-color: $bg-color-btn;
+        background-color: $color-dark-grey;
         margin-bottom: 20px;
     }
     
     .block-1 .sqr-2 {
-        background-color: $bg-color-carts;
+        background-color: $color-black;
     }
     
     .block-1 .sqr-3 {
-        background-color: $bg-color-green;
+        background-color: $color-grey
     }
     
-    .block-1 .sqr-4 {
-        background-color: $bg-color-page;
-    }
+    // .block-1 .sqr-4 {
+    //     background-color: $bg-color-page;
+    // }
     
     .col-md-4 .title-1 {
         font-size: 36px;
         line-height: 1.5;
         font-weight: 600;
-        color: $bg-color-words;
+        color: $color-black;
     }
     
     .col-md-4 .title-2 {
         font-size: 32px;
         line-height: 1.5;
         font-weight: 600;
-        color: $bg-color-words;
+        color: $color-black;
     }
     
     .col-md-4 .title-3 {
         font-size: 28px;
         line-height: 1.5;
         font-weight: 600;
-        color: $bg-color-words;
+        color: $color-black;
     }
     
     .col-md-4 .title-4 {
         font-size: 24px;
         line-height: 1.5;
         font-weight: 600;
-        color: $bg-color-words;
+        color: $color-black;
     }
     
     .col-md-4 .title-5 {
         font-size: 20px;
         line-height: 1.5;
         font-weight: 600;
-        color: $bg-color-words;
+        color: $color-black;
     }
     
     .col-md-4 .title-6 {
         font-size: 16px;
         line-height: 1.5;
         font-weight: 600;
-        color: $bg-color-words;
+        color: $color-black;
+    }
+
+    .btn  {
+        margin-bottom: 30px;
     }
 }
  
+
+.btn-all-catalog, 
+.btn-see-more,
+.btn-contacts,
+.btn-send {
+    color: $color-white;
+    background-color: $color-grey;
+    text-align: center;
+    font-family: 'Playfair-Display-SC__Bold';
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 14px 53px;
+    &:hover {
+        background-color: none;
+        color: $color-grey;
+    }
+}
+
+.btn-see-more {
+    padding: 14px 22px;
+}
+
+.btn-contacts {
+    border: 2px solid $color-grey;
+    background-color: $color-white;
+    color: $color-grey;
+    padding: 14px 75px;
+    &:hover {
+        background-color: $color-grey;
+        color: $color-white;
+    }
+}
+
+.btn-send {
+    padding: 14px 69px;
+}
