@@ -7,13 +7,13 @@ var toggleButton = document.querySelector('.navbar-toggler')
 var closeButton = document.querySelector('.btn-close ')
 
 toggleButton.addEventListener('click', function() {
-    navbarLogo.classList.add('width')
+    navbarLogo.classList.toggle('width')
 })
 
-closeButton.addEventListener('click', function() {
-    navbarLogo.classList.remove('width')
-})
-console.log(closeButton)
+// closeButton.addEventListener('click', function() {
+//     navbarLogo.classList.toggle('width')
+// })
+
 
 
 
@@ -55,3 +55,20 @@ console.log(closeButton)
 //         }
 //     })
 // })
+
+
+
+
+const baner = document.querySelector('.first-screen-description')
+
+const originalText = baner.textContent
+
+const shortenedText = 'РАССКАЖИТЕ НАМ О ЖИЗНИ ВАШЕЙ МЕЧТЫ, И МЫ НАЙДЕМ ЕЕ ДЛЯ ВАС'
+
+window.addEventListener('resize', ()=> {
+    if (window.innerWidth <= 575) {
+        baner.textContent = shortenedText
+    } else {
+        baner.textContent = originalText
+    }
+})

@@ -1,3 +1,38 @@
 @media screen and (max-width: 767px) {
 
+    .first-screen {
+
+        .banner {
+
+            .first-screen-title {
+                font-size: 74px;
+            }
+
+            .first-screen-description {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .about-us {
+
+        .container {
+
+            .row {
+
+                .col-lg-5 {
+                    
+                    &::before {
+                        left: -14px;
+                    }
+
+                    img {
+
+                        margin-left: 35px;
+                    }
+                }
+            }
+        }
+    }
+
 }

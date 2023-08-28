@@ -12,6 +12,10 @@ header {
 		}
 	}
 
+	.fixed-top {
+		position: absolute;
+	}
+
 	.logo {
 		max-width: 632px;
 		width: 100%;
@@ -22,6 +26,10 @@ header {
 		img {
 			width: 255px;
 			height: 60px;
+		}
+
+		.img-mobile {
+			display: none;
 		}
 	}
 
@@ -159,6 +167,10 @@ header {
 	
 
 	.offcanvas {
+
+		.toggler-language {
+			display: none;
+		}
 
 		.offcanvas-title {
 			color: $color-grey;

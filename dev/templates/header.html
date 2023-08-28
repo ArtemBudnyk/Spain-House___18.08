@@ -3,34 +3,46 @@
     <nav class="navbar bg-body-tertiary fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand logo" href="#">
-            <img src="assets/img/logo-header.svg" alt="#">
+          <img class="img-desktop" src="assets/img/logo-header.svg" alt="#">
+          <img class="img-mobile" src="assets/img/logo-mobile.png" alt="#">
         </a>
         <div class="description-info">
-        <div class="row numbers">
+          <div class="row numbers">
             <div class="col whats-up">
               <h5>+01 951 120 365</h5>
             </div>
             <div class="col phone">
               <h5>+34 951 120 365</h5>
             </div>
+          </div>
+          <div class="row toggler-language">
+            <div class="col">
+              <h5>EN</h5>
+            </div>
+            <div class="col">
+              <h5>RU</h5>
+            </div>
+            <div class="col">
+              <h5>ES</h5>
+            </div>
+          </div>
         </div>
-        <div class="row toggler-language">
-          <div class="col">
-            <h5>EN</h5>
-          </div>
-          <div class="col">
-            <h5>RU</h5>
-          </div>
-          <div class="col">
-            <h5>ES</h5>
-          </div>
-        </div>
-      </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
+            <div class="row toggler-language">
+              <div class="col">
+                <h5>EN</h5>
+              </div>
+              <div class="col">
+                <h5>RU</h5>
+              </div>
+              <div class="col">
+                <h5>ES</h5>
+              </div>
+            </div>
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Добро     пожаловать    в     Spain House</h5>
             <button type="button" class="btn-close test" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
@@ -48,7 +60,7 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">аренда</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mobile-del">
                 <a class="nav-link active" aria-current="page" href="#">земельные участки</a>
               </li>
               <li class="nav-item">

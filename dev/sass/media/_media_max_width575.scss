@@ -1,3 +1,221 @@
 @media screen and (max-width: 575px) {
+
+    //header
+
+    header {
+
+        .container {
+            .navbar {
+                background: transparent!important;
+            }
+        }
+
+        .logo {
+            width: 169px;
+            height: 38px;
+            margin-left: 22px;
+            margin-top: 15px;
+
+            .img-desktop {
+                display: none; 
+            }
+
+            .img-mobile {
+                display: flex;
+                width: 169px;
+                height: 38px;
+            }
+        }
+
+        .navbar-toggler-icon {
+            background: url(assets/img/menu-white.png);
+            width: 33px;
+            height: 33px;
+        }
+
+        .btn-close {
+            transform: translate(-321px, -18px);
+        }
+
+        #offcanvasNavbar {
+            right: -123px;
+        }
+
+        .offcanvas {
+
+            .toggler-language {
+                display: flex;
+                margin-left: 65px;
+                margin-top: 33px;
+
+                .col {
+
+                    h5 {
+                        font-size: 18px;
+                    }
+                }
+
+                .col:nth-child(2) {
+                    margin-left: 13px;
+                    margin-right: -35px;
+                    &::before {
+                        width: 32px;
+                        height: 33px;
+                        left: -5px;
+                        top: -4px;
+                    }
+                }
+            }
+
+            .offcanvas-title {
+                font-family: "Playfair-Display-SC__Bold";
+                font-size: 16px;
+                line-height: 28px;
+                margin-top: 13px;
+                margin-left: -283px;
+            }
+
+            .offcanvas-body {
+                margin-top: 88px;
+                padding-left: 15px;
+
+                .nav-item {
+                    margin-left: 5px;
+                    margin-bottom: 5px;
+
+                    &::after {
+                        left: -6px;
+                        top: -2px;
+                    }
+
+                    a {
+                        font-size: 14px;
+                    }
+                }
+
+                .mobile-del {
+                    display: none;
+                }
+
+                .phone {
+                    margin-top: 17px;
+                    margin-left: 35px;
+
+                    &::before {
+                        display: none;
+                    }
+
+                    &::after {
+                        left: -29px;
+                    }
+                }
+
+                .whats-up {
+                    margin-top: 6px;
+                    margin-left: 34px;
+
+                    &::before {
+                        top: -1px;
+                    }
+                }
+
+                .social-media {
+                    margin: 120px 59px 0;
+
+                    a {
+                        margin-right: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    // first screen 
     
+    .first-screen {
+
+        .container {
+            max-width: 575px;
+            width: 100%;
+            display: flex;
+        }
+
+        .banner {
+            background-image: url(assets/img/menu-banner-mobile.png);
+            width: 575px;
+            height: 812px;
+
+            .first-screen-title {
+                font-size: 35px;
+                margin-top: -23px;
+            }
+
+            .first-screen-description {
+                font-size: 13px;
+                width: 310px;
+                margin-top: 8px;
+            }
+        }
+    }
+
+    // about us
+
+
+    .about-us {
+
+        .container {
+            max-width: 575px;
+    
+            .row {
+                .col-lg-7 {
+
+                    .topic {
+                        margin-top: 35px;
+                        margin-bottom: 28px;
+                    }
+
+                    .description {
+                        margin-bottom: 29px;
+                    }
+                }
+
+                .col-lg-5 {
+
+                    &::before {
+                        height: 306px;
+                        left: -17px;
+                        top: 20px;
+                    }
+
+                    img {
+                        width: 400px;
+                        height: 283px;
+                        margin-top: 40px;
+                        margin-left: 18px;
+                    }
+
+                    .mobile-girl {
+                        display: flex;
+                    }
+
+                    .desktop-girl {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+

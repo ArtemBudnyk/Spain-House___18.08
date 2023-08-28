@@ -4,11 +4,15 @@
     display: flex;
     justify-content: center;
 
+    .container-fluid {
+        margin: 0 105px;
+    }
+
     .info {
         margin-left: -2px;
     }
 
-    .col-md-7 {
+    .col-lg-7 {
 
         .topic {
             margin-top: 145px;
@@ -35,7 +39,7 @@
         }
     }
 
-    .col-md-5 {
+    .col-lg-5 {
         position: relative;
         z-index: 1;
 
@@ -54,5 +58,9 @@
             margin-top: 70px;
             margin-left: 66px;
         }
+    }
+
+    .mobile-girl {
+        display: none;
     }
 }

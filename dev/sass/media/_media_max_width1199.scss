@@ -1,2 +1,47 @@
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1399px) {
+
+    // header
+
+    header {
+        .navbar-toggler {
+            margin-left: 45px;
+        }
+
+        .logo {
+            max-width: 500px;
+        }
+    }
 }
+
+@media screen and (max-width: 1199px) {
+
+    // header
+
+    header {
+
+        .logo {
+            max-width: 300px;
+        }
+    }
+
+    // about us
+
+
+    .about-us {
+        
+        .row {
+
+            .col-md-5 {
+    
+                ::before {
+                    left: -23px;
+                }
+    
+                img {
+                    margin-left: 30px;
+                }
+            }
+        }
+    }
+}
+
