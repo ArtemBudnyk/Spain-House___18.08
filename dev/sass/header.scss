@@ -1,21 +1,40 @@
 header {
 
 	.container {
-	    .container-fluid {
-			max-width: 1440px;
-			width: 100%;
+
+		.navbar {
+			padding-bottom: 15px;
+			
+			.container-fluid {
+				max-width: 1440px;
+				width: 100%;
+			}
 		}
 	}
+
 	.logo {
 		max-width: 632px;
 		width: 100%;
 		height: 60px;
 		margin-top: 5px;
-    	margin-left: 69px;
+    	margin-left: 81px;
 
 		img {
 			width: 255px;
 			height: 60px;
+		}
+	}
+
+	.description-info {
+		display: flex;
+
+		.numbers {
+			margin-left: -26px;
+		}
+
+		.toggler-language {
+			margin-left: 90px;
+			margin-top: 22px;
 		}
 	}
 
@@ -26,45 +45,45 @@ header {
 		.col:last-child {
 			margin-right: -59px;
 		}
+	}
 
-		.whats-up {
-			position: relative;
+	.whats-up {
+		position: relative;
 
-			&::before {
-				content: "";
-				position: absolute;
-				left: -18px;
-				width: 25px;
-				height: 25px;
-				background-image: url(assets/img/whatsapp.png);
-				background-repeat: no-repeat;
-			}
+		&::before {
+			content: "";
+			position: absolute;
+			left: -18px;
+			width: 25px;
+			height: 25px;
+			background-image: url(assets/img/whatsapp.png);
+			background-repeat: no-repeat;
+		}
+	}
+
+	.phone {
+		position: relative;
+
+		&::after {
+			content: "";
+			position: absolute;
+			left: 142px;
+			top: 3px;
+			width: 18px;
+			height: 18px;
+			background-image: url(assets/img/spain.png);
+			background-repeat: no-repeat;
 		}
 
-		.phone {
-			position: relative;
-
-			&::after {
-				content: "";
-				position: absolute;
-				left: 142px;
-				top: 3px;
-				width: 18px;
-				height: 18px;
-				background-image: url(assets/img/spain.png);
-				background-repeat: no-repeat;
-			}
-
-			&::before {
-				content: "";
-				position: absolute;
-				left: -11px;
-    			top: 2px;
-				width: 18px;
-				height: 18px;
-				background-image: url(assets/img/phone-call.png);
-				background-repeat: no-repeat;
-			}
+		&::before {
+			content: "";
+			position: absolute;
+			left: -11px;
+			top: 2px;
+			width: 18px;
+			height: 18px;
+			background-image: url(assets/img/phone-call.png);
+			background-repeat: no-repeat;
 		}
 	}
 
@@ -148,7 +167,7 @@ header {
 			font-style: normal;
 			line-height: normal;
 			text-transform: uppercase;
-			transform: translate(28px, 76px);
+			transform: translate(28px, 75px);
 			text-align: center;
 			width: 227px;
 		}
@@ -157,9 +176,29 @@ header {
 			margin-top: 95px;
 			padding-left: 42px;
 
+			.nav-item:first-child {
+				&::before {
+					position: absolute;
+					content: "";
+					width: 330px;
+					height: 0.42px;
+					background-color: $color-grey;
+					top: -3px;
+				}
+			}
+
 			.nav-item {
 				margin-top: 1px;
     			margin-bottom: 2px;
+				position: relative;
+
+				&::after {
+					position: absolute;
+					content: "";
+					width: 330px;
+					height: 0.42px;
+					background-color: $color-grey;
+				}
 
 				a {
 					color: $color-black;
@@ -167,6 +206,43 @@ header {
 					font-size: 16px;
 					font-weight: 400;
 					text-transform: uppercase;
+				}
+			}
+
+			.phone {
+				margin-top: 18px;
+				margin-left: 20px;
+
+				&::after {
+					content: "";
+					left: 131px;
+				}
+
+				&::before {
+					content: "";
+					left: -22px;
+					top: 4px;
+					width: 16px;
+					height: 15px;
+				}
+			}
+
+			.whats-up {
+				margin-top: 8px;
+				margin-left: 28px;
+
+				&::before {
+					content: "";
+					left: -30px;
+    				top: 0px;
+				}
+			}
+
+			.social-media {
+				margin: 70px 64px;
+				a {
+					width: 29px;
+					margin-right: 22px;
 				}
 			}
 		}

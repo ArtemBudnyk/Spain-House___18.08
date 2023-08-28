@@ -1,0 +1,58 @@
+.about-us {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .info {
+        margin-left: -2px;
+    }
+
+    .col-md-7 {
+
+        .topic {
+            margin-top: 145px;
+            margin-bottom: 32px;
+        }
+
+        .description {
+            margin-bottom: 24px;
+            padding-right: 80px;
+        }
+
+        h5 {
+            color: $color-grey;
+            font-family: "Playfair-Display-SC__Regular";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+            text-transform: uppercase;
+        }
+
+        img {
+            margin-top: 74px;
+        }
+    }
+
+    .col-md-5 {
+        position: relative;
+        z-index: 1;
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 492px;
+            height: 387px;
+            border: 1px solid $color-grey;
+            top: 129px;
+            left: 18px;
+            z-index: -2;
+        }
+
+        img {
+            margin-top: 70px;
+            margin-left: 66px;
+        }
+    }
+}
