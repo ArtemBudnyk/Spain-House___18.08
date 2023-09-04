@@ -7,12 +7,12 @@ var toggleButton = document.querySelector('.navbar-toggler')
 var closeButton = document.querySelector('.btn-close ')
 
 toggleButton.addEventListener('click', function() {
-    navbarLogo.classList.toggle('width')
+    navbarLogo.classList.add('width')
 })
 
-// closeButton.addEventListener('click', function() {
-//     navbarLogo.classList.toggle('width')
-// })
+closeButton.addEventListener('click', function() {
+    navbarLogo.classList.remove('width')
+})
 
 
 
