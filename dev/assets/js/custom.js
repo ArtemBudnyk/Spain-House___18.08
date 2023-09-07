@@ -1,18 +1,44 @@
 // var navbarInfo = document.querySelector('.description-info')
 
+// const { off } = require("gulp")
+
 var navbarLogo = document.querySelector('.logo')
 
 var toggleButton = document.querySelector('.navbar-toggler')
 
-var closeButton = document.querySelector('.btn-close ')
+// var closeButton = document.querySelector('.btn-close ')
 
 toggleButton.addEventListener('click', function() {
     navbarLogo.classList.add('width')
+    const modalFadeBackdrop = document.querySelector(".modal-backdrop")
+
+    if (modalFadeBackdrop) {
+        modalFadeBackdrop.addEventListener("click", function () {
+            navbarLogo.classList.remove('width')
+        })
+    }
 })
 
-closeButton.addEventListener('click', function() {
-    navbarLogo.classList.remove('width')
+const offCanvasCloseEI = document.querySelector(".offcanvas .btn-close")
+
+offCanvasCloseEI.addEventListener("click", function () {
+    navbarLogo.classList.toggle('width')
 })
+
+
+
+
+
+
+
+
+
+
+
+
+// closeButton.addEventListener('click', function() {
+//     navbarLogo.classList.remove('width')
+// })
 
 
 

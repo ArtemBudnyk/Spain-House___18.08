@@ -1,0 +1,103 @@
+.instagram-profile {
+    max-width: 1440px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+
+    .instagram-photo,
+    .instagram-name,
+    .title {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 14px;
+    }
+
+    .instagram-photo {
+        margin-bottom: 17px;
+    }
+
+    .instagram-name {
+        margin-bottom: 16px;
+    }
+
+    .title {
+
+        h4 {
+            color: #000;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+    .photo-box {
+        display: grid;
+        grid-template-columns: 378px 378px 378px;
+        grid-template-rows: 375px 375px 375px;
+        grid-gap: 47px 50px;
+        justify-content: center;
+    }
+
+    .item {
+        // max-width: 378px;
+        width: 100%;
+        display: grid;
+    }
+
+    .item-1 {
+        background-image: url(assets/img/grid-1.png);
+    }
+
+    .item-2 {
+        background-image: url(assets/img/grid-2.png);
+    }
+
+    .item-3 {
+        background-image: url(assets/img/grid-3.png);
+    }
+
+    .item-4 {
+        background-image: url(assets/img/grid-4.png);
+    }
+
+    .item-5 {
+        background-image: url(assets/img/grid-5.png);
+    }
+
+    .item-6 {
+        background-image: url(assets/img/grid-6.png);
+    }
+
+    .item-7 {
+        background-image: url(assets/img/grid-7.png);
+    }
+
+    .item-8 {
+        background-image: url(assets/img/grid-8.png);
+    }
+
+    .item-9 {
+        background-image: url(assets/img/grid-9.png);
+    }
+
+    .btnn {
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            display: flex;
+            max-width: 1236px;
+            width: 100%;
+            height: 1.714px;
+            top: 109px;
+            background-color: $color-grey;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

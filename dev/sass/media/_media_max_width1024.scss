@@ -1,4 +1,22 @@
 @media screen and (max-width: 1024px) {
+
+    //insta
+
+    .instagram-profile {
+        max-width: 1024px;
+
+        .photo-box {
+            grid-gap: 20px 20px;
+            grid-template-columns: 253px 253px 253px;
+            grid-template-rows: 250px 250px 250px;
+        }
+
+        .item {
+            width: 250px;
+            height: 253px;
+            background-size: cover;
+        }
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -123,3 +141,23 @@
     }
 }
 
+@media screen and (max-width: 830px) {
+
+    //insta
+
+    .instagram-profile {
+        max-width: 830px;
+
+        .photo-box {
+            grid-gap: 20px 20px;
+            grid-template-columns: 203px 203px 203px;
+            grid-template-rows: 200px 200px 200px;
+        }
+
+        .item {
+            width: 200px;
+            height: 203px;
+            background-size: cover;
+        }
+    }
+}

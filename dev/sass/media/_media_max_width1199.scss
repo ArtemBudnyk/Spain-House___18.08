@@ -13,6 +13,27 @@
     }
 }
 
+@media screen and (max-width: 1260px) {
+
+    // insta 
+
+    .instagram-profile {
+        max-width: 1250px;
+
+        .photo-box {
+            grid-gap: 25px 25px;
+            grid-template-columns: 313px 313px 313px;
+            grid-template-rows: 310px 310px 310px;
+        }
+
+        .item {
+            width: 310px;
+            height: 310px;
+            background-size: cover;
+        }
+    }
+}
+
 @media screen and (max-width: 1199px) {
 
     // header

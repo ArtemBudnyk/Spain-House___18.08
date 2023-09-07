@@ -1,3 +1,32 @@
+@media screen and (max-width: 680px) {
+    
+    //insta
+
+    .instagram-profile {
+        max-width: 680px;
+
+        .photo-box {
+            grid-gap: 18px 18px;
+            grid-template-columns: 153px 153px 153px;
+            grid-template-rows: 150px 150px 150px;
+        }
+
+        .item {
+            width: 150px;
+            height: 153px;
+            background-size: cover;
+        }
+
+        .btnn {
+
+            &::before {
+                display: none;
+            }
+        }
+    }
+}
+
+
 @media screen and (max-width: 575px) {
 
     //header
@@ -219,6 +248,8 @@
 
     .recomend {
         max-width: 575px;
+        display: flex;
+        margin-bottom: 61px;
 
         .topic-title {
             margin-left: 0px;
@@ -298,14 +329,55 @@
 
         .btnn {
             margin-top: 50px;
-            left: 55px;
-            width: 265px;
+            // left: 55px;
+            // width: 265px;
         }
 
         .btn-all-catalog {
             font-size: 17px;
             line-height: normal;
             padding: 15px 34px 12px 40px;
+        }
+    }
+
+
+    //insta
+
+    .instagram-profile {
+        max-width: 575px;
+
+        .photo-box {
+            grid-gap: 13px 15px;
+            grid-template-columns: 101px 101px 101px;
+            grid-template-rows: 102px 102px 102px;
+        }
+
+        .item {
+            width: 101px;
+            height: 102px;
+            background-size: cover;
+        }
+
+        .instagram-name {
+            margin-bottom: 30px;
+
+            h4 {
+                font-size: 17px;
+            }
+        }
+
+        .title {
+            margin-bottom: 13px;
+        }
+
+        .btnn {
+            margin-top: 63px;
+            margin-left: 0px;
+
+            .btn-see-more {
+                font-size: 17px;
+                padding: 10px 12px 11px 17px;
+            }
         }
     }
 } 
