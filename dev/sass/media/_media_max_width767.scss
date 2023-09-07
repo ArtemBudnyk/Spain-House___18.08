@@ -23,7 +23,8 @@
                 .col-lg-5 {
                     
                     &::before {
-                        left: -14px;
+                        // left: -14px;
+                        left: 18%;
                     }
 
                     img {
@@ -31,6 +32,103 @@
                         margin-left: 35px;
                     }
                 }
+            }
+        }
+    }
+
+    //recomend
+
+    .recomend {
+        max-width: 767px;
+
+        .topic-title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .topic {
+            width: 318px;
+            text-align: center;
+        }
+
+        .description {
+            display: none;
+        }
+
+        .row {
+            flex-flow: column;
+            flex-wrap: wrap;
+            flex-direction: row;
+            width: 343px;
+            margin-left: 0px;
+
+            .item {
+                transform: none;
+                margin-left: 18px;
+
+                &:nth-child(2) {
+                    margin-left: 23px;
+                    margin-top: 7px;
+                }
+            }
+
+            .col {
+
+                .img-cart {
+                    margin-left: -33px;
+                }
+            }
+
+            .col-lg-4, 
+            .col-lg-8,
+            .col:nth-child(2) {
+                margin-bottom: 3px;
+                margin-left: -32px;
+
+                .content-cart {
+                    padding-top: 36px;
+                    margin-top: -40px;
+
+                    &::after {
+                        max-width: 325px;
+                        max-height: 171px;
+                        top: 27px;
+                    }
+                }
+            }
+
+            .col-lg-8 {
+                margin-top: 5px;
+                margin-left: 20px;
+                margin-left: -15px;
+            }
+
+            .col:nth-child(2) {
+                margin-left: 5px;
+            }
+
+            .col {
+                .img-cart {
+                    margin-left: -31px;
+                }
+            }
+
+            .item:nth-child(1) {
+                margin-top: -7px;
+                margin-left: 3px;
+            }
+        }
+
+        .test{
+            max-width: 721px;
+            width: 100%;
+        }
+
+        .btnn {
+
+            &::before {
+                display: none;
             }
         }
     }
