@@ -8,6 +8,24 @@
     transition: 0.3s ease;
 }
 
+.home {
+
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .container-fluid {
+        max-width: 1230px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        // margin: 0 105px;
+    }
+}
 
 body {
 

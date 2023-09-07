@@ -8,6 +8,8 @@ header {
 			.container-fluid {
 				max-width: 1440px;
 				width: 100%;
+				display: flex;
+				flex-direction: row;
 			}
 		}
 	}
@@ -37,7 +39,7 @@ header {
 		display: flex;
 
 		.numbers {
-			margin-left: -26px;
+			margin-left: -17px;
 		}
 
 		.toggler-language {
@@ -147,7 +149,7 @@ header {
 	}
 
 	.navbar-toggler {
-		margin: 20px 61px auto -59px;
+		margin: 20px 72px auto -59px;
 		border: none;
 		
 		.navbar-toggler:focus {
