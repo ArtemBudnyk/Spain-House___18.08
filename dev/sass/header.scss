@@ -4,6 +4,8 @@ header {
 
 		.navbar {
 			padding-bottom: 15px;
+			display: flex;
+    		justify-content: center;
 			
 			.container-fluid {
 				max-width: 1440px;

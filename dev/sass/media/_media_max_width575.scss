@@ -345,6 +345,7 @@
 
     .instagram-profile {
         max-width: 575px;
+        margin-bottom: 37px;
 
         .photo-box {
             grid-gap: 13px 15px;
@@ -379,6 +380,48 @@
                 padding: 10px 12px 11px 17px;
             }
         }
+    }
+
+
+    // footer
+
+    footer {
+
+        .footer-block {
+            margin-top: 29px;
+        }
+
+        .logo {
+            margin-bottom: 28px;
+
+            img {
+                width: 102px;
+                height: 85px;
+            }
+        }
+
+        .row {
+            margin-left: -25px;
+            margin-bottom: 30px;
+        }
+
+        .col {
+
+            img {
+                width: 43px;
+                height: 43px;
+            }
+        }
+
+        .col:nth-child(2) {
+            margin-left: 8px;
+        }
+
+        h5 {
+            text-align: center;
+            width: 205px;
+        }
+    
     }
 } 
 

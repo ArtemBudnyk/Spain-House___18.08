@@ -10,10 +10,12 @@
 
 .home {
 
-    max-width: 1440px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    // max-width: 1440px;
+    // display: flex;
+    // justify-content: center;
+    // flex-direction: column;
+    // overflow-x: hidden;
+    // overflow-y: hidden;
 
     .container-fluid {
         max-width: 1230px;
@@ -32,6 +34,11 @@ body {
     max-width: 1440px;
     width: 100%;
     overflow-x: hidden;
+    // max-width: 5000px;
+    // width: 100%;
+    // overflow-x: hidden;
+    // display: flex;
+    // justify-content: center;
 
     .container-fluid {
         max-width: 1230px;

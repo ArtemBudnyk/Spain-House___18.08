@@ -1,0 +1,62 @@
+.profile {
+    @extend .about-us
+}
+
+.profile {
+
+    .row {
+
+        .col-lg-5 {
+            margin-left: -6px;
+            
+            img {
+                width: 392px;
+            }
+        }
+
+        .col-lg-7 {
+            margin-top: 20px;
+            // display: flex;
+            // flex-direction: column;
+            // align-items: end;
+
+            .topic {
+                margin-bottom: 20px;
+                margin-left: 60px;
+            }
+    
+            .description {
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px;
+                text-transform: uppercase;
+                margin-bottom: 35px;
+                margin-left: 60px;
+            }
+
+            .description:nth-child(3) {
+                text-transform: none;
+                padding-right: 0;
+                margin-bottom: 29px;
+            }
+
+            h5 {
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px;
+                text-transform: uppercase;
+                margin-bottom: 22px;
+                margin-left: 60px;
+            }
+
+            .btn-contacts {
+                margin-left: 48px;
+                padding-right: 67px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+
+}

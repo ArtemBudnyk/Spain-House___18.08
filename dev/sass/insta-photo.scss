@@ -3,6 +3,7 @@
     width: 100%;
     justify-content: center;
     display: flex;
+    margin-bottom: 60px;
 
     .instagram-photo,
     .instagram-name,
@@ -37,12 +38,19 @@
         grid-template-rows: 375px 375px 375px;
         grid-gap: 47px 50px;
         justify-content: center;
+        overflow: hidden;
     }
 
     .item {
         // max-width: 378px;
         width: 100%;
         display: grid;
+        object-fit: cover;
+        transition: transform 0.8s;
+
+        &:hover {
+            transform: scale(1.2);
+        }
     }
 
     .item-1 {

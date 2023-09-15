@@ -135,4 +135,42 @@
         }
     }
 
+    //profile 
+
+    #profile {
+        margin-bottom: 60px;
+        .container {
+
+            .row {
+    
+                .col-lg-7 {
+                    width: 330px;
+    
+                    .topic {
+                        display: none;
+                    }
+
+                    .btn-contacts {
+                        padding: 9px 58px 11px 61px;
+                    }
+                }
+    
+                .col-lg-5 {
+                    margin-bottom: 14px;
+
+                    &::before {
+                        height: 505px;
+                    }
+    
+                    img {
+                        width: 358px;
+                        height: 478px;
+                        margin-left: 36px;
+                    }
+                }
+            }
+        }
+
+    }
+
 }
