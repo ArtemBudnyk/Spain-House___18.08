@@ -173,16 +173,19 @@
             background-image: url(assets/img/menu-banner-mobile.png);
             width: 575px;
             height: 812px;
+            margin-left: 0;
 
             .first-screen-title {
                 font-size: 35px;
                 margin-top: -23px;
+                margin-right: 0;
             }
 
             .first-screen-description {
                 font-size: 13px;
                 width: 310px;
                 margin-top: 8px;
+                margin-right: 0;
             }
         }
     }

@@ -3,13 +3,16 @@
     .first-screen {
 
         .banner {
+            margin-left: -30px;
 
             .first-screen-title {
                 font-size: 74px;
+                margin-right: 33px;
             }
 
             .first-screen-description {
                 font-size: 16px;
+                margin-right: 33px;
             }
         }
     }
@@ -61,7 +64,8 @@
             flex-wrap: wrap;
             flex-direction: row;
             width: 343px;
-            margin-left: 0px;
+            // margin-left: 0px;
+            margin-left: 2px;
 
             .item {
                 transform: none;
@@ -102,7 +106,8 @@
                 margin-top: 5px;
                 // margin-left: 20px;
                 // margin-left: -15px;
-                margin-left: 56px;
+                // margin-left: 56px;
+                margin-left: 46px;
                 margin-right: 81px;
             }
 
