@@ -65,6 +65,16 @@
             }
         }
     }
+
+    // title-2 
+
+    .buildings {
+
+        .photo-box {
+            grid-template-columns: 412px 381px;
+            grid-template-rows: 246px 246px;
+        }
+    }
 }
 
 @media screen and (max-width: 1199px) {

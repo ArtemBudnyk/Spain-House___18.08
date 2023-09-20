@@ -1,0 +1,24 @@
+.baner-title-2 {
+    @extend .first-screen
+}
+
+.title-2 {
+
+    max-width: 1440px;
+    width: 100%;
+
+    .banner {
+        background-image: url(assets/img/banner-title-2.png);
+        background-position: center;
+        max-width: 1440px;
+        width: 100%;
+
+        .first-screen-title {
+            margin-top: -65px;
+        }
+    }
+}
+
+.baner-title-2 {
+    margin-bottom: 74px;
+}

@@ -259,48 +259,6 @@
             margin-bottom: -35px;
         }
 
-        // .row {
-
-        //     .col-lg-4, 
-        //     .col-lg-8,
-        //     .col:nth-child(2) {
-        //         margin-bottom: 3px;
-        //         margin-left: -32px;
-
-        //         .content-cart {
-        //             padding-top: 36px;
-        //             margin-top: -40px;
-        
-        //             &::after {
-        //                 max-width: 325px;
-        //                 max-height: 171px;
-        //                 top: 27px;
-        //             }
-        //         }
-        //     }
-
-        //     .col-lg-8 {
-        //         margin-top: 5px;
-        //         margin-left: -15px;
-        //     }
-
-        //     .col:nth-child(2) {
-        //         margin-left: 5px;
-        //     }
-
-        //     .col {
-
-        //         .img-cart {
-        //             margin-left: -31px;
-        //         }
-        //     }
-
-        //     .item:nth-child(1) {
-        //         margin-top: -7px;
-        //         margin-left: 3px;
-        //     }
-        // }
-
         .content-cart {
 
             .house-code {
@@ -332,8 +290,6 @@
 
         .btnn {
             margin-top: 50px;
-            // left: 55px;
-            // width: 265px;
         }
 
         .btn-all-catalog {
@@ -425,6 +381,31 @@
             width: 205px;
         }
     
+    }
+
+
+    // title-2 
+
+
+    // baner 
+
+    .baner-title-2 {
+        margin-bottom: 43px;
+
+        .banner {
+
+            .first-screen-title {
+                margin-top: -30px;
+            }
+        }
+    }
+
+    .baner-title-2 {
+
+        .banner {
+            background-image: url(assets/img/baner-title-2-mobile.png);
+            background-position: right;
+        }
     }
 } 
 

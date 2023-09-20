@@ -104,9 +104,6 @@
 
             .col-lg-8 {
                 margin-top: 5px;
-                // margin-left: 20px;
-                // margin-left: -15px;
-                // margin-left: 56px;
                 margin-left: 46px;
                 margin-right: 81px;
             }
@@ -176,6 +173,56 @@
             }
         }
 
+    }
+
+    // title-2
+
+    header {
+
+        .container {
+
+            .navbar {
+                padding-top: 4px;
+            }
+        }
+    }
+
+    .buildings {
+        margin-bottom: 30px;
+
+        .photo-box {
+            grid-template-columns: 342px;
+            grid-template-rows: 246px;
+            // grid-gap: 102px 47px;
+            grid-gap: 0;
+        }
+
+        .img-box {
+            width: 342px;
+
+            img {
+                width: 367px;
+                height: 274px;
+            }
+        }
+
+        .house-name {
+            width: 340px;
+            margin-left: 13px;
+
+            &::after {
+                width: 324px;
+            }
+        }
+
+        .item:nth-child(2) {
+            margin-top: 107px;
+        }
+
+        .item {
+            margin-top: 5px;
+            margin-bottom: 24px;
+        }
     }
 
 }

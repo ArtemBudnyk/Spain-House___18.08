@@ -1,0 +1,65 @@
+.buildings {
+    max-width: 1440px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 105px;
+
+    .container-fluid {
+        max-width: 1236px;
+    }
+
+    .photo-box {
+        display: grid;
+        grid-template-columns: 381px 381px 381px;
+        grid-template-rows: 246px 246px 246px;
+        grid-gap: 119px 47px;
+        justify-content: center;
+        overflow: hidden;
+        margin-left: -25px;
+    }
+
+    .item {
+        max-width: 381px;
+        width: 100%;
+        display: grid;
+    }
+
+    .item-10,
+    .item-11 {
+        padding-bottom: 5px;
+    }
+
+    .img-box {
+        img {
+            width: 409px;
+        }
+    }
+
+    .house-name {
+        position: relative;
+        box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.20);
+        padding: 22px 33px 11px;
+        margin-top: -20px;
+        margin-left: 14px;
+        width: 379px;
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: 8px;
+            width: 361px;
+            height: 52px;
+            border: 1px solid $color-dark-grey;
+        }
+
+        h1 {
+            color: $color-grey;
+            text-align: center;
+            font-family: 'Playfair-Display-SC__Bold';
+            font-size: 24px;
+            line-height: 28px;
+        }
+    }
+}
