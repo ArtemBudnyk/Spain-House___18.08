@@ -59,16 +59,16 @@ offCanvasCloseEI.addEventListener("click", function () {
 
 
 
-const baner = document.querySelector('.first-screen-description')
+// const baner = document.querySelector('.first-screen-description')
 
-const originalText = baner.textContent
+// const originalText = baner.textContent
 
-const shortenedText = 'РАССКАЖИТЕ НАМ О ЖИЗНИ ВАШЕЙ МЕЧТЫ, И МЫ НАЙДЕМ ЕЕ ДЛЯ ВАС'
+// const shortenedText = 'РАССКАЖИТЕ НАМ О ЖИЗНИ ВАШЕЙ МЕЧТЫ, И МЫ НАЙДЕМ ЕЕ ДЛЯ ВАС'
 
-window.addEventListener('resize', ()=> {
-    if (window.innerWidth <= 575) {
-        baner.textContent = shortenedText
-    } else {
-        baner.textContent = originalText
-    }
-})
+// window.addEventListener('resize', ()=> {
+//     if (window.innerWidth <= 575) {
+//         baner.textContent = shortenedText
+//     } else {
+//         baner.textContent = originalText
+//     }
+// })

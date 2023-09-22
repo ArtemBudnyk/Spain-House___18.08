@@ -407,6 +407,81 @@
             background-position: right;
         }
     }
+
+    // title-3
+
+    .baner-title-3 {
+
+        .banner {
+            background-image: url(assets/img/baner-title-3-mobile.png);
+            background-position: center;
+        }
+    }
+
+
+    // title-3 
+
+    .houses-block {
+        margin-top: 313px;
+        margin-bottom: 145px;
+
+        .item-3,
+        .item-4,
+        .item-5 {
+            margin-left: 8px;
+        }
+
+        .house-cart {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            &:nth-child(3n) {
+                margin-left: 4px;
+            }
+
+            &:nth-last-child(-n+6) {
+                display: none;
+            }
+        }
+
+        .img-cart {
+            margin-left: 30px;
+
+            img {
+                // width: 343px;
+                // width: 369px;
+                width: 373px;
+                height: 283px;
+            }
+        }
+
+        .content-cart {
+            width: 340px;
+            margin-left: 30px;
+            margin-bottom: 11px;
+            padding-top: 18px;
+            padding-bottom: 16px;
+
+            &::after {
+                max-width: 325px;
+                left: 7px;
+                top: 6px;
+            }
+
+            .house-style {
+                font-size: 17px;
+            }
+        }
+        
+        .info {
+            &::after {
+                max-width: 325px;
+                top: 7px;
+            }
+        }
+    }
 } 
 
 

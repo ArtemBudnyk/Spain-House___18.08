@@ -1,0 +1,129 @@
+.houses-block {
+    margin-top: 181px;
+    display: flex;
+    justify-content: center;
+
+    .container-fluid {
+        max-width: 1300px;
+    }
+
+    .galery-block {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .house-cart {
+        width: 392px;
+        margin-right: 39px;
+    }
+    
+    .content-cart {
+        position: relative;
+        box-shadow: 0px 5px 18px 0px rgba(0, 0, 0, 0.30);
+        padding-top: 21px;
+        padding-bottom: 19px;
+        margin-top: -21px;
+        margin-left: 17px;
+        max-width: 392px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 23px;
+
+        &::after {
+            content: "";
+            position: absolute;
+            border: 1px solid #808080;
+            max-width: 374px;
+            width: 100%;
+            max-height: 171px;
+            height: 100%;
+            top: 10px;
+        }
+
+        .house-code{
+            color: $color-dark-grey;
+            text-align: center;
+            font-size: 12px;
+            line-height: 28px;
+            margin-bottom: -2px;
+            margin-top: -3px;
+            margin-left: -3px;
+        }
+
+        .house-style {
+            color: $color-dark-grey;
+            text-align: center;
+            font-family: "Playfair-Display-SC__Bold";
+            font-size: 18px;
+            line-height: 28px;
+            margin-bottom: 12px;
+            margin-bottom: 14px;
+        }
+
+        .house-price {
+            position: relative;
+            color: #000;
+            text-align: center;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 23px;
+            margin-left: -15px;
+            margin-bottom: 12px;
+            &::after {
+                content: "";
+                position: absolute;
+                width: 12px;
+                height: 12px;
+                background: url(assets/img/price-arrows.png);
+                left: 96px;
+                top: 7px;
+            }
+        }
+
+        .house-square,
+        .bedroom,
+        .terrace {
+            color: $color-dark-grey;
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 23px;
+        }
+
+        .house-square {
+            margin-left: 30px;
+            width: 180px;
+            margin-bottom: 4px;
+        }
+
+        .bedroom {
+            margin-left: -10px;
+        }
+    }    
+
+    .house-cart:nth-child(3n) {
+        margin-left: -12px;
+    }
+
+    .info {
+        width: 386px;
+
+        &::after {
+            max-width: 367px;
+            width: 100%;
+            max-height: 171px;
+            height: 100%;
+            top: 10px;
+            left: 10px;
+        }
+    }
+}
