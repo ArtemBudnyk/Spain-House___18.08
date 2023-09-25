@@ -1,4 +1,8 @@
 
+$(document).ready(function() {
+    $('select').niceSelect()
+})
+
 
 var navbarLogo = document.querySelector('.logo')
 
