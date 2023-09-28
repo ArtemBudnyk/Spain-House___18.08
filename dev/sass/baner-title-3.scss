@@ -167,4 +167,72 @@
     .btn-find {
         margin-left: -48px;
     }
+
+
+    .pages {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 36px;
+        margin-left: 22px;
+
+        .btn-prev,
+        .btn-next {
+            width: 25px;
+            height: 25px;
+            background-image: url(assets/img/prev.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #DFDFDF;
+            border-radius: 3px;
+
+            &:hover {
+                background-image: url(assets/img/prev-hover.svg);
+            }
+        }
+
+        .btn-1-page,
+        .btn-2-page {
+            position: relative;
+            width: 25px;
+            height: 25px;
+            background-color: #DFDFDF;
+            margin: auto 3px;
+            border-radius: 3px;
+
+            &::after {
+
+                content: "1";
+                position: absolute;
+                top: -3px;
+                left: 8px;
+                color: $color-grey;
+                text-align: center;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 30px;
+            }
+
+            &:hover::after {
+                color: #fff;
+            }
+
+        }
+
+        .btn-2-page {
+            &::after {
+                content: "2";
+                position: absolute;
+            }
+        }
+
+        .btn-next {
+            background-image: url(assets/img/next.svg);
+
+            &:hover {
+                background-image: url(assets/img/next-hover.svg);
+            }
+        }
+    }
 }

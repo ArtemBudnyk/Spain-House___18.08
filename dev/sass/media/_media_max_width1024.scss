@@ -185,6 +185,7 @@
 
     .menu {
         max-width: 991px;
+        margin-left: 21px;
         
         .form {
             align-items: center;
@@ -224,6 +225,45 @@
                 left: calc(10% - 30px);
             }
         }
+
+        .pages {
+            margin-top: 34px;
+            margin-left: 11px;
+
+            .btn-1-page,
+            .btn-2-page,
+            .btn-prev,
+            .btn-next {
+                width: 44px;
+                height: 42px;
+            }
+
+            .btn-prev {
+                background-image: url(assets/img/prev-mobile.svg);
+
+                &::after {
+                    background-image: url(assets/img/prev-mobile-hover.svg);
+                }
+            }
+
+            .btn-next {
+                background-image: url(assets/img/next-mobile.svg);
+                
+                &::after {
+                    background-image: url(assets/img/next-mobile-hover.svg);
+                }
+            }
+
+            .btn-1-page,
+            .btn-2-page {
+                &::after {
+                    top: 6px;
+                    left: 16px;
+                    font-size: 20px;
+                }
+            }
+        }
+
     }
 
 

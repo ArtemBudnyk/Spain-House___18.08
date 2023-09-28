@@ -129,6 +129,7 @@
                 .phone {
                     margin-top: 17px;
                     margin-left: 35px;
+                    width: 350px;              //
 
                     &::before {
                         display: none;
@@ -142,6 +143,7 @@
                 .whats-up {
                     margin-top: 6px;
                     margin-left: 34px;
+                    width: 350px;                 //
 
                     &::before {
                         top: -1px;
@@ -174,6 +176,7 @@
             width: 575px;
             height: 812px;
             margin-left: 0;
+            height: 100vh;
 
             .first-screen-title {
                 font-size: 35px;
@@ -398,6 +401,7 @@
         margin-bottom: 43px;
 
         .banner {
+            height: 100vh;
 
             .first-screen-title {
                 margin-top: -30px;
@@ -420,6 +424,11 @@
         .banner {
             background-image: url(assets/img/baner-title-3-mobile.png);
             background-position: center;
+            height: 100vh;
+
+            .first-screen-title {
+                margin-left: 30px;
+            }
         }
     }
 
