@@ -559,7 +559,8 @@
         }
     }
 
-    .menu-2 {
+    .menu-2,
+    .menu-3 {
 
         .form {
             margin-left: 7px;
@@ -579,12 +580,41 @@
         }
     }
 
-    .block-2 {
+    .block-2,
+    .block-3 {
         margin-top: 25px;
     }
 
+     // title-5
+
+    .baner-title-5 {
+        .banner {
+            // background-image: url(assets/img/banner-title-arend-mobile.png);
+            // background-position: center;
+            // background-size: contain;
+            background: url(assets/img/banner-title-arend-mobile.png) center/contain;
+
+            .first-screen-title {
+                &:nth-child(1) {
+                    margin-top: 8px;
+                }
+            }
+        }
+    }
+
+    .menu-3 {
+        .form {
+            margin-left: 12px;
+            margin-top: 20px;
+        }
+
+        .pages {
+            margin-top: 50px;
+            margin-left: 20px;
+        }
+    }
+}
   
-} 
 
 
 

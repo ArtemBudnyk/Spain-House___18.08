@@ -1,0 +1,24 @@
+.baner-title-5 {
+    @extend .baner-title-4
+}
+
+.menu-3 {
+    @extend .menu-2
+}
+
+.title-5 {
+    max-width: 1440px;
+    width: 100%;
+
+    .banner {
+        background-image: url(assets/img/banner-title-arend.png);
+
+        .first-screen-title {
+            margin-top: -2px;
+        }
+
+        .first-screen-description {
+            margin-top: 28px;
+        }
+    }
+}
