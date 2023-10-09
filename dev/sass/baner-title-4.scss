@@ -1,0 +1,25 @@
+.baner-title-4 {
+    @extend .baner-title-3
+}
+
+.title-4 {
+    max-width: 1440px;
+    width: 100%;
+
+    .banner {
+        background-image: url(assets/img/banner-title-4.png);
+
+        .first-screen-title {
+            text-align: center;
+            margin: -14px 0;
+
+            &:nth-child(1) {
+                margin-top: -15px;
+            }
+        }
+
+        .first-screen-description {
+            margin-top: 34px;
+        }
+    }
+}

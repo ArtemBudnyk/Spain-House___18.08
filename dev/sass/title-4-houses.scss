@@ -1,0 +1,33 @@
+.block-2 {
+    @extend .houses-block
+}
+
+.block-2 {
+    margin-top: 34px;
+    margin-left: -10px;
+}
+
+.menu-2 {
+
+    .data-box {
+        &:nth-child(1) {
+            max-width: 242px;
+
+            &::after {
+                content: "";
+                left: calc(10% - 10px);
+            }
+        }
+
+        &:nth-child(2) {
+            max-width: 395px;
+            margin-right: -20px;
+        }
+
+        &:nth-child(3) {
+            max-width: 395px;
+            width: 100%;
+            margin-right: 65px;
+        }
+    }
+}
