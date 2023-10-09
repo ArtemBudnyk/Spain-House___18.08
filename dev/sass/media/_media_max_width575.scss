@@ -613,6 +613,33 @@
             margin-left: 20px;
         }
     }
+
+    .block-4 {
+        margin-top: 25px;
+    }
+
+    .baner-title-6 {
+        .banner {
+            // background: url(assets/img/banner-title-plot-land-mobile.png) center/contain no-repeat;
+            background: url(assets/img/banner-title-plot-land-mobile.png);
+            background-repeat: no-repeat;
+            .first-screen-title {
+                &:nth-child(1) {
+                    margin-top: 20px;
+                    margin-left: 10px;
+                }
+
+                &:nth-child(2) {
+                    margin-top: 0px;
+                    margin-left: 10px;
+                }
+            }
+
+            .first-screen-description {
+                width: 199px;
+            }
+        }
+    }
 }
   
 

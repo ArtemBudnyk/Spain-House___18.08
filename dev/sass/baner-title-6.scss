@@ -1,0 +1,62 @@
+.baner-title-6 {
+    @extend .baner-title-3
+}
+
+.title-6 {
+
+    max-width: 1440px;
+    width: 100%;
+
+
+    .banner {
+        background-image: url(assets/img/banner-title-plot-land.png);
+        background-position: center;
+        max-width: 1440px;
+        width: 100%;
+
+        .first-screen-title {
+            margin-top: -122px;
+            margin-left: -20px;
+
+            &:nth-child(1) {
+                margin-top: -70px;
+                margin-left: -2px;
+            }
+
+            &:nth-child(2) {
+                margin-top: -28px;
+                margin-left: -4px;
+            }
+
+        }
+
+        .first-screen-description {
+            margin-top: -15px;
+        }
+    }
+}
+
+.menu-4 {
+    #gsearch {
+        padding: 13px 10px 12px 56px;    
+    }
+
+    .data-box {
+        &:nth-child(1) {
+            max-width: 585px;
+        }
+        &:nth-child(2) {
+            max-width: 461px;
+            width: 100%;
+            margin-left: 20px;
+        }
+    }
+
+    .pages {
+        margin-top: 55px;
+    }
+}
+
+.block-4 {
+    margin-top: 40px;
+}
