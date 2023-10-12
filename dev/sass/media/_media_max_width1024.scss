@@ -19,6 +19,25 @@
     }
 }
 
+@media screen and (max-width: 1070px) {
+
+    // house obj
+
+    .block-house-1 {
+
+        .row {
+            justify-content: center;
+        }
+        
+        .col-left {
+            height: 533px;
+            margin-bottom: 20px;
+            margin-right: 0px;
+        }
+    }
+}
+
+
 @media screen and (max-width: 1024px) {
 
     //insta

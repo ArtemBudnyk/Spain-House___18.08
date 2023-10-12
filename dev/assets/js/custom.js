@@ -40,14 +40,14 @@ $(document).ready(function() {
         fade: true,
         asNavFor: '.slider-block-2',
 
-        prevArrow: '<button class="btn slider-btn slider-prev"><img src="assets/img/slider-prev-arrow.png" alt="arrow-left"></button>',
-        nextArrow: '<button class="btn slider-btn slider-next"><img src="assets/img/slider-next-arrow.png" alt="arrow-right"></button>',
+        // prevArrow: '<button class="btn slider-btn slider-prev"><img src="assets/img/slider-prev-arrow.png" alt="arrow-left"></button>',
+        // nextArrow: '<button class="btn slider-btn slider-next"><img src="assets/img/slider-next-arrow.png" alt="arrow-right"></button>',
     });
 
     $('.slider-block-2').slick({
         Infinity: true,
-        slidesToShow: 8,
-        slidesToScroll: 8,
+        slidesToShow: 7,
+        slidesToScroll: 7,
         asNavFor: '.slider-block',
         arrows: false,
         dots: false,

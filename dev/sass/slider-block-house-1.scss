@@ -3,20 +3,36 @@
     display: flex;
     justify-content: center;
     
-    .col-right {
+    .col-left {
         display: flex;
         flex-direction: column;
         max-width: 911px;
         width: 100%;
+        margin-right: 28px;
+
+        .topic {
+            display: none;
+        }
+    }
+
+    .sliders {
+        margin-bottom: 10px;
+        height: 437px;
+        width: 911px;   // удалить при меньшем диапазоне
+    }
+
+    .sliders-2 {
+        width: 930px;  // удалить при меньшем диапазоне
     }
     
     .slider-block {
         display: flex;
         flex-direction: row;
+        position: relative;
 
         .slider-wrapper {
             max-width: 911px;
-            width: 100%;
+            width: 100%!important;
             margin: 0 auto;
     
             img {
@@ -24,20 +40,187 @@
                 width: 100%;
             }
         }
+
+        .slick-next {
+            position: absolute;
+            width: 29px;
+            height: 33px;
+            background: #808080;
+            border-radius: 0;
+            left: calc(93% - -3px);
+            top: calc(50% + -4px);
+            background-image: url(assets/img/slider-next-arrow.png);
+            background-repeat: no-repeat;
+            font-size: 0;
+            background-size: cover;
+        }
+
+        .slick-prev {
+            position: absolute;
+            width: 29px;
+            height: 33px;
+            background: #808080;
+            border-radius: 0;
+            background-image: url(assets/img/slider-prev-arrow.png);
+            background-repeat: no-repeat;
+            font-size: 0;
+            background-size: cover;
+            z-index: 1;
+            top: calc(50% - 3px);
+            left: calc(4% - 4px);
+        }
     }
 
     .slider-block-2 {
         display: flex;
         flex-direction: row;
+        width: 911px; // удалить
+        width: 930px;
+
+        .slick-track {
+            margin: 0;
+            // width: 911px!important;
+            // margin-left: -19px;
+            height: 437px;
+            width: 930px !important;   // delete
+            margin-left: -5px;
+        }
+
+        .slick-list {
+            padding: 0!important;
+            // width: 911px;
+            width: 930px;      // delete
+        }
         
         .slider-wrapper {
             max-width: 121px;
-            width: 100%;
-            margin: 0 auto;
+            width: 100%!important;
+            margin: auto 5px;
     
             img {
-                max-width: 121px;
-                width: 100%;
+                width: 120px;
+                height: 86px;
+            }
+        }
+    }
+
+    .col-right {
+        display: flex;
+        flex-direction: column;
+        max-width: 307px;
+        width: 100%;
+        box-shadow: 0px 5px 18px 0px rgba(0, 0, 0, 0.30);
+        height: 535px;
+
+        .cart {
+            position: relative;
+
+            &::after {
+                content: "";
+                position: absolute;
+                color: $color-dark-grey;
+                text-align: right;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 52px;
+            }
+
+            &::before {
+                content: "";
+                width: 307px;
+                height: 0.19px;
+                background-color: $color-grey;
+                position: absolute;
+                left: -12px;
+            }
+
+            h4 {
+                color: $color-dark-grey;
+                // font-family: 'OpenSans-Bold';
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 52px;
+                margin-bottom: 0px;
+                padding-left: 31px;
+            }
+        }
+
+        .article {
+            position: relative;
+
+            &::before {
+                display: none;
+            }
+
+            &::after {
+                content: "R3304774";
+                left: 74%;
+                top: 3%;
+            }
+        }
+
+        .price {
+            width: 307px;
+            padding: 9px 73px 4px 79px;
+            background-color: $color-grey;
+            color: #fff;
+            margin-left: -11px;
+            margin-bottom: 5px;
+
+            h4 {
+                display: flex;
+                justify-content: center;
+                color: #FFF;
+                text-align: center;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 28px;
+            }
+        }
+
+        .bedrooms,
+        .bathrooms {
+            &::after {
+                content: "2";
+                left: 94%;
+                top: 3%;
+            }
+        }
+
+        .parking,
+        .garden,
+        .swimming-pool {
+            &::after {
+                content: "Да";
+                left: 90%;
+                top: 3%;
+            }
+        }
+
+        .area {
+            &::after {
+                content: "75 m2";
+                left: 82%;
+                top: 3%;
+            }
+        }
+
+        .terrace {
+            &::after {
+                content: "25 m2";
+                left: 82%;
+                top: 3%;
+            }
+        }
+
+        .plot {
+            &::after {
+                content: "0 m2";
+                left: 85%;
+                top: 3%;
             }
         }
     }

@@ -97,6 +97,66 @@
             grid-template-rows: 246px 246px;
         }
     }
+
+    // house obj 1
+
+    .block-house-1 {
+        max-width: 1260px;
+        width: 100%;
+
+        .sliders,
+        .sliders-2 {
+            max-width: 720px;
+            width: 100%;
+        }
+
+        .slider-block-2 {
+            max-width: 720px;
+            width: 100%;
+        }
+
+        .row {
+            margin: auto 10px;
+            justify-content: center;
+        }
+
+        .col-right {
+            max-width: 710px;
+            .price {
+                max-width: 710px;
+                width: 104%;
+                height: 51px;
+                padding: 0;
+                padding-top: 10px;
+
+            }
+
+            .cart {
+                &::before {
+                   max-width: 715px;
+                   width: 104%;
+                }
+            }
+        }
+
+        .col-left {
+            margin-right: 20px;
+            max-width: 720px;
+            width: 100%;
+        }
+
+        .slider-block {
+
+            .slick-next {
+                top: calc(24% - 4px);
+            }
+
+            .slick-prev {
+                top: calc(24% - 3px);
+
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 1199px) {
