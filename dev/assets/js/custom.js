@@ -28,6 +28,35 @@ offCanvasCloseEI.addEventListener("click", function () {
 })
 
 
+// slider
+
+$(document).ready(function() {
+
+    $('.slider-block').slick({
+        Infinity: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        fade: true,
+        asNavFor: '.slider-block-2',
+
+        prevArrow: '<button class="btn slider-btn slider-prev"><img src="assets/img/slider-prev-arrow.png" alt="arrow-left"></button>',
+        nextArrow: '<button class="btn slider-btn slider-next"><img src="assets/img/slider-next-arrow.png" alt="arrow-right"></button>',
+    });
+
+    $('.slider-block-2').slick({
+        Infinity: true,
+        slidesToShow: 8,
+        slidesToScroll: 8,
+        asNavFor: '.slider-block',
+        arrows: false,
+        dots: false,
+        centerMode: true,
+        focusOnSelect: true
+    });
+})
+
+
 
 
 

@@ -1,0 +1,45 @@
+.block-house-1 {
+
+    display: flex;
+    justify-content: center;
+    
+    .col-right {
+        display: flex;
+        flex-direction: column;
+        max-width: 911px;
+        width: 100%;
+    }
+    
+    .slider-block {
+        display: flex;
+        flex-direction: row;
+
+        .slider-wrapper {
+            max-width: 911px;
+            width: 100%;
+            margin: 0 auto;
+    
+            img {
+                max-width: 911px;
+                width: 100%;
+            }
+        }
+    }
+
+    .slider-block-2 {
+        display: flex;
+        flex-direction: row;
+        
+        .slider-wrapper {
+            max-width: 121px;
+            width: 100%;
+            margin: 0 auto;
+    
+            img {
+                max-width: 121px;
+                width: 100%;
+            }
+        }
+    }
+
+}
