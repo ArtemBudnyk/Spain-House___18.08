@@ -156,7 +156,19 @@
 
             }
         }
+
+        .title {
+            margin-top: 1000px;
+        }
+
+        .title,
+        .title-description {
+            margin-left: 27px;
+            margin-right: 20px;
+        }
     }
+
+    
 }
 
 @media screen and (max-width: 1199px) {

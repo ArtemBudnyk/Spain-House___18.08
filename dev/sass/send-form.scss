@@ -1,0 +1,176 @@
+.send-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    width: 100%;
+    margin-top: 50px;
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 845px;
+        width: 100%;
+        box-shadow: 0px 5px 18px 0px rgba(0, 0, 0, 0.30);
+        margin-bottom: 63px;
+        height: 696px;
+
+        &::after {
+            position: absolute;
+            content: "";
+            width: 819px;
+            height: 668px;
+            color: $color-grey;
+            border: 0.5px solid $color-grey;
+            top: 12px;
+        }
+    }
+
+    .form-title {
+        color: $color-grey;
+        text-align: center;
+        font-family: 'Playfair-Display-SC__Bold';
+        font-size: 35px;
+        font-style: normal;
+        line-height: 28px;
+        text-transform: uppercase;
+        margin-top: -12px;
+        margin-bottom: 20px;
+    }
+
+    .form-description {
+        color: $color-grey;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        max-width: 598px;
+        margin-bottom: 28px;
+    }
+
+    .form-contacts {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 315px;
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .col-left {
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            background-image: url(assets/img/whatsapp.png);
+            top: 0;
+            left: -22px;
+        }
+    }
+
+    .col-right {
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            background-image: url(assets/img/phone-call.png);
+            top: 4px;
+            left: -20px;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            background-image: url(assets/img/spain.png);
+            top: 3px;
+            left: 130px;
+        }
+
+    }
+
+    .data-box {
+        
+        input {
+            width: 385px;
+            padding: 4px 0 4px;
+            margin-bottom: 18px;
+            border: 0.5px solid $color-grey;
+            border-radius: 0;
+        }
+
+        #text {
+            padding: 10px 0 38px;
+            margin-bottom: 12px;
+        }
+    }
+
+    .checkbox__label {
+        color: #000;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px; 
+        text-transform: capitalize;
+
+        &::before {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 20px;
+            height: 20px;
+            border: 0.5px solid $color-grey;
+            border-radius: 2px;
+            z-index: 1;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 20px;
+            height: 20px;
+            background: url(assets/img/check.svg) no-repeat;  // trabl
+            background-size: 20px 20px;
+            z-index: 2;
+            opacity: 0;
+        }
+    }
+
+    .check-box {
+        position: relative;
+        margin-bottom: 25px;
+    }
+
+    .checkbox__input {
+        -webkit-appearance: none;
+        appearance: none;
+        position: absolute;
+
+        &:checked + .checkbox__label::before {
+            // background-color: #fff;
+        }
+
+        &:checked + .checkbox__label::after {
+            opacity: 1;
+        }
+    }
+
+  
+}

@@ -677,6 +677,16 @@
                 .slick-prev {
                     display: none!important;
                 }
+
+                .slider-wrapper {
+                    width: 343px!important;
+                    height: 260px;
+            
+                    img {
+                        width: 343px;
+                        height: 260px;
+                    }
+                }
             }
 
             .slider {
@@ -709,6 +719,12 @@
             .price {
                 width: 343px;
             }
+        }
+
+        .title {
+            margin-top: 525px;
+            text-align: center;
+            justify-content: center;
         }
     }
 
