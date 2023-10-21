@@ -728,6 +728,84 @@
         }
     }
 
+    // form 
+
+    .send-form {
+
+        .last {
+            display: flex;
+        }
+
+        .form {
+            width: 343px;
+            height: 735px;
+
+            &::after {
+                max-width: 312px;
+                height: 713px;
+            }
+        }
+
+        .form-title {
+            font-size: 30px;
+            margin-top: 15px;
+        }
+
+        .form-description {
+            font-size: 14px;
+            width: 309px;
+            margin-bottom: 15px;
+        }
+
+        .col-left,
+        .col-right,
+        .last {
+            margin-bottom: 10px;
+        }
+
+        .col-right::after {
+            display: none;
+        }
+
+        .col-right::before {
+            top: 8px;
+            left: -19px;
+        }
+
+        .last {
+            position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                width: 18px;
+                height: 18px;
+                background-image: url(assets/img/spain.png);
+                top: 8px;
+                left: -19px;
+            }
+        }
+
+        .form-contacts {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .data-box {
+            width: 292px;
+
+            input {
+                width: 292px;
+            }
+        }
+
+        .btn-send {
+            margin-top: -11px;
+            padding: 9px 35px;
+        }
+    }
+
 
 }
   

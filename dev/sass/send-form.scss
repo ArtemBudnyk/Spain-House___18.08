@@ -6,6 +6,10 @@
     width: 100%;
     margin-top: 50px;
 
+    .last {
+        display: none;
+    }
+
     .container {
         display: flex;
         justify-content: center;
@@ -138,6 +142,8 @@
             border: 0.5px solid $color-grey;
             border-radius: 2px;
             z-index: 1;
+            top: 1px;
+            left: -23px;
         }
 
         &::after {
@@ -150,6 +156,8 @@
             background-size: 20px 20px;
             z-index: 2;
             opacity: 0;
+            top: 1px;
+            left: -23px;
         }
     }
 

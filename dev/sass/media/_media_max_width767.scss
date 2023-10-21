@@ -259,6 +259,13 @@
         }
     }
 
+    // form 
+
+    .send-form {
+        .form::after {
+            max-width: 498px;
+        }
+    }
    
 
     
