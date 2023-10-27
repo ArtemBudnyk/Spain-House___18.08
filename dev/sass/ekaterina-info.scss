@@ -1,0 +1,32 @@
+.ekaterina-info {
+    @extend .about-us
+}
+
+.ekaterina-info {
+    .container {
+        .row {
+            .col-lg-7 {
+                margin-top: 170px;
+                margin-left: 12px;
+                .description {
+                    text-align: left;
+                }
+            }
+        
+            .col-lg-5 {
+                margin-left: -36px;
+                margin-top: -17px;
+        
+                &::before {
+                    left: 2px;
+                }
+        
+                img {
+                    width: 357px;
+                    height: 483px;
+                }
+            }
+        }
+    }
+    
+}

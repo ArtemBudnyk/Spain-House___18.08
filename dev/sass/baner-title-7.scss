@@ -1,0 +1,23 @@
+.baner-title-7 {
+    @extend .baner-title-6
+}
+
+.title-7 {
+
+    max-width: 1440px;
+    width: 100%;
+
+    .banner {
+        background-image: url(assets/img/contact-desktop.png);
+        background-position: center;
+        max-width: 1440px;
+        width: 100%;
+    }
+
+    .first-screen-title {
+        width: 493px;
+        text-align: center;
+    }
+}
+
+   

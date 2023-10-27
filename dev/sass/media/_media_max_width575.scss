@@ -806,6 +806,39 @@
         }
     }
 
+    // conatcts
+
+    .baner-title-7 {
+        .banner {
+            background: url(assets/img/contact-mobile.png);
+            background-repeat: no-repeat;
+            background-position: top;
+        }
+
+        .first-screen-title {
+            width: 210px;
+        }
+    }
+
+    .ekaterina-info {
+        .container {
+            .row {
+                .col-lg-5 {
+                    &::before {
+                        height: 504px;
+                    }
+                }
+            }
+        }
+       
+    }
+
+    .header-for-slider {
+        .navbar-toggler-icon {
+            background: url(assets/img/menu-slider.png);
+        }
+    }
+
 
 }
   

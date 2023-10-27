@@ -1,0 +1,39 @@
+.form-contact {
+    margin-top: 137px;
+    margin-left: -5px;
+
+    .form {
+        height: 606px;
+
+        &::after {
+            height: 580px;
+        }
+    }
+
+    .last {
+        display: flex;
+    }
+
+    .form-contacts {
+        max-width: 550px;
+    }
+
+    .check-box {
+        margin-left: 15px;
+    }
+
+    .checkbox__label::before {
+        left: -26px;
+        top: 3px;
+    }
+
+    .checkbox__label::after {
+        left: -26px;
+        top: 3px;
+    }
+
+}
+
+.last {
+    @extend .col-right
+}

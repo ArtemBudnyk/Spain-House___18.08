@@ -369,6 +369,38 @@
         }
     }
 
+    //
+
+    .ekaterina-info {
+        .container {
+            .row {
+                .col-lg-5 {
+                    &::before {
+                        height: 504px;
+                    }
+        
+                    .mobile-girl {
+                        margin: 32px -11px auto auto;
+                        width: 358px;
+                        height: 476px;
+                    }
+                }
+
+                .col-lg-7 {
+                    margin-top: 40px;
+                    .description {
+                        text-align: left;
+
+                        &:nth-child(2) {
+                            margin-top: -25px;
+                        }
+                    }
+                }
+            }
+        }
+       
+    }
+
 }
 
 @media screen and (max-width: 830px) {
